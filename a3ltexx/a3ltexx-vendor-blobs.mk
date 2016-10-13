@@ -249,7 +249,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/a3ltexx/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/a3ltexx/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
-    vendor/samsung/a3ltexx/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so
+    vendor/samsung/a3ltexx/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/samsung/a3ltexx/proprietary/lib/libcommon_time_client.so:system/lib/libcommon_time_client.so \
     vendor/samsung/a3ltexx/proprietary/priv-app/FusedLocation/FusedLocation.apk:system/priv-app/FusedLocation/FusedLocation.apk \
     vendor/samsung/a3ltexx/proprietary/bin/ssr_diag:system/bin/ssr_diag \
