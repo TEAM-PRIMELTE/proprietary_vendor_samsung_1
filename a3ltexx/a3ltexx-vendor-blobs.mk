@@ -45,8 +45,37 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/etc/firmware/wcd9306/wcd9306_anc.bin:system/etc/firmware/wcd9306/wcd9306_anc.bin \
     vendor/samsung/a3ltexx/proprietary/etc/firmware/wcd9306/wcd9306_mbhc.bin:system/etc/firmware/wcd9306/wcd9306_mbhc.bin \
     vendor/samsung/a3ltexx/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    vendor/samsung/a3ltexx/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-    vendor/samsung/a3ltexx/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/mba.mbn:system/etc/firmware/mba.mbn \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b03:system/etc/firmware/modem.b03 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b04:system/etc/firmware/modem.b04 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b05:system/etc/firmware/modem.b05 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b06:system/etc/firmware/modem.b06 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b07:system/etc/firmware/modem.b07 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b08:system/etc/firmware/modem.b08 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b09:system/etc/firmware/modem.b09 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b10:system/etc/firmware/modem.b10 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b11:system/etc/firmware/modem.b11 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b12:system/etc/firmware/modem.b12 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b13:system/etc/firmware/modem.b13 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b14:system/etc/firmware/modem.b14 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b15:system/etc/firmware/modem.b15 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b16:system/etc/firmware/modem.b16 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b17:system/etc/firmware/modem.b17 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b18:system/etc/firmware/modem.b18 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b19:system/etc/firmware/modem.b19 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b20:system/etc/firmware/modem.b20 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b21:system/etc/firmware/modem.b21 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b22:system/etc/firmware/modem.b22 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b23:system/etc/firmware/modem.b23 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b24:system/etc/firmware/modem.b24 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b25:system/etc/firmware/modem.b25 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b26:system/etc/firmware/modem.b26 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b27:system/etc/firmware/modem.b27 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.b28:system/etc/firmware/modem.b28 \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
     vendor/samsung/a3ltexx/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/samsung/a3ltexx/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/a3ltexx/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
@@ -206,6 +235,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/a3ltexx/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/a3ltexx/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/a3ltexx/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/a3ltexx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/a3ltexx/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     vendor/samsung/a3ltexx/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
