@@ -266,10 +266,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/lib/lib_SoundAlive_SRC192_ver205.so:system/lib/lib_SoundAlive_SRC192_ver205.so \
     vendor/samsung/a3ltexx/proprietary/lib/lib_SoundAlive_ver118t.so:system/lib/lib_SoundAlive_ver118t.so \
     vendor/samsung/a3ltexx/proprietary/lib/lib_DNSe_EP_ver216b.so:system/lib/lib_DNSe_EP_ver216b.so \
-    vendor/samsung/a3ltexx/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
+    vendor/samsung/a3ltexx/proprietary/lib/lib_SA_GoogleFX_ver124b.so:system/lib/lib_SA_GoogleFX_ver124b.so \
     vendor/samsung/a3ltexx/proprietary/lib/libtfa9895.so:system/lib/libtfa9895.so \
-    vendor/samsung/a3ltexx/proprietary/lib/libmysound.so:system/lib/libmysound.so \
-    vendor/samsung/a3ltexx/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/a3ltexx/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/samsung/a3ltexx/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
     vendor/samsung/a3ltexx/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
