@@ -49,8 +49,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/a3ltexx/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/samsung/a3ltexx/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/samsung/a3ltexx/proprietary/vendor/lib/libactuator_dw9804_a7_camcorder.so:system/vendor/lib/libactuator_dw9804_a7_camcorder.so \
-    vendor/samsung/a3ltexx/proprietary/vendor/lib/libactuator_dw9804_a7_camera.so:system/vendor/lib/libactuator_dw9804_a7_camera.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libactuator_dw9804_camcorder.so:system/vendor/lib/libactuator_dw9804_camcorder.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libactuator_dw9804_camera.so:system/vendor/lib/libactuator_dw9804_camera.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -92,6 +92,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/samsung/a3ltexx/proprietary/lib/libjpega.so:system/lib/libjpega.so \
     vendor/samsung/a3ltexx/proprietary/lib/libexifa.so:system/lib/libexifa.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libchromatix_imx219_common.so:system/vendor/lib/libchromatix_imx219_common.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libchromatix_imx219_common_res0.so:system/vendor/lib/libchromatix_imx219_common_res0.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libchromatix_imx219_default_video.so:system/vendor/lib/libchromatix_imx219_default_video.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libchromatix_imx219_liveshot.so:system/vendor/lib/libchromatix_imx219_liveshot.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libchromatix_imx219_panorama.so:system/vendor/lib/libchromatix_imx219_panorama.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libchromatix_imx219_preview.so:system/vendor/lib/libchromatix_imx219_preview.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libchromatix_imx219_snapshot.so:system/vendor/lib/libchromatix_imx219_snapshot.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libchromatix_imx219_zslshot.so:system/vendor/lib/libchromatix_imx219_zslshot.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_common.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_common.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_pip.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_pip.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_preview.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_preview.so \
@@ -127,8 +135,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/a3ltexx/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/a3ltexx/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/samsung/a3ltexx/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/samsung/a3ltexx/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/a3ltexx/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/samsung/a3ltexx/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/samsung/a3ltexx/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
@@ -154,10 +164,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/samsung/a3ltexx/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/samsung/a3ltexx/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/samsung/a3ltexx/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/samsung/a3ltexx/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
+    vendor/samsung/a3ltexx/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/samsung/a3ltexx/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
@@ -217,9 +234,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/a3ltexx/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/samsung/a3ltexx/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/samsung/a3ltexx/proprietary/lib/libcommon_time_client.so:system/lib/libcommon_time_client.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/samsung/a3ltexx/proprietary/priv-app/FusedLocation/FusedLocation.apk:system/priv-app/FusedLocation/FusedLocation.apk \
     vendor/samsung/a3ltexx/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/samsung/a3ltexx/proprietary/bin/ssr_setup:system/bin/ssr_setup \
@@ -232,23 +255,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
     vendor/samsung/a3ltexx/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
     vendor/samsung/a3ltexx/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
+    vendor/samsung/a3ltexx/proprietary/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
     vendor/samsung/a3ltexx/proprietary/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
     vendor/samsung/a3ltexx/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
-    vendor/samsung/a3ltexx/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
-    vendor/samsung/a3ltexx/proprietary/lib/libsamsungRecord_zoom.so:system/lib/libsamsungRecord_zoom.so \
     vendor/samsung/a3ltexx/proprietary/lib/lib_SamsungRec_V04012.so:system/lib/lib_SamsungRec_V04012.so \
     vendor/samsung/a3ltexx/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
-    vendor/samsung/a3ltexx/proprietary/lib/lib_SamsungVAD_v01007.so:system/lib/lib_SamsungVAD_v01007.so \
     vendor/samsung/a3ltexx/proprietary/lib/libsamsungVoipResampler.so:system/lib/libsamsungVoipResampler.so \
-    vendor/samsung/a3ltexx/proprietary/lib/libsamsungvad.so:system/lib/libsamsungvad.so \
     vendor/samsung/a3ltexx/proprietary/lib/lib_SoundAlive_play_ver125e.so:system/lib/lib_SoundAlive_play_ver125e.so \
     vendor/samsung/a3ltexx/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
     vendor/samsung/a3ltexx/proprietary/lib/lib_SoundAlive_SRC192_ver205.so:system/lib/lib_SoundAlive_SRC192_ver205.so \
     vendor/samsung/a3ltexx/proprietary/lib/lib_SoundAlive_ver118t.so:system/lib/lib_SoundAlive_ver118t.so \
     vendor/samsung/a3ltexx/proprietary/lib/lib_DNSe_EP_ver216b.so:system/lib/lib_DNSe_EP_ver216b.so \
     vendor/samsung/a3ltexx/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
-    vendor/samsung/a3ltexx/proprietary/lib/lib_Samsung_AudioZoom_v102.so:system/lib/lib_Samsung_AudioZoom_v102.so \
-    vendor/samsung/a3ltexx/proprietary/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
     vendor/samsung/a3ltexx/proprietary/lib/libtfa9895.so:system/lib/libtfa9895.so \
     vendor/samsung/a3ltexx/proprietary/lib/libmysound.so:system/lib/libmysound.so \
     vendor/samsung/a3ltexx/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
