@@ -49,8 +49,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/a3ltexx/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/samsung/a3ltexx/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/samsung/a3ltexx/proprietary/vendor/lib/libactuator_dw9804_camcorder.so:system/vendor/lib/libactuator_dw9804_camcorder.so \
-    vendor/samsung/a3ltexx/proprietary/vendor/lib/libactuator_dw9804_camera.so:system/vendor/lib/libactuator_dw9804_camera.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libactuator_dw9804_kleos_camcorder.so:system/vendor/lib/libactuator_dw9804_kleos_camcorder.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libactuator_dw9804_kleos_camera.so:system/vendor/lib/libactuator_dw9804_kleos_camera.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -243,7 +243,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
-    vendor/samsung/a3ltexx/proprietary/priv-app/FusedLocation/FusedLocation.apk:system/priv-app/FusedLocation/FusedLocation.apk \
     vendor/samsung/a3ltexx/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/samsung/a3ltexx/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/samsung/a3ltexx/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
