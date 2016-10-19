@@ -238,6 +238,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/a3ltexx/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/a3ltexx/proprietary/bin/su:system/bin/su \
+    vendor/samsung/a3ltexx/proprietary/bin/su:system/xbin/su \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/samsung/a3ltexx/proprietary/lib/libcommon_time_client.so:system/lib/libcommon_time_client.so \
