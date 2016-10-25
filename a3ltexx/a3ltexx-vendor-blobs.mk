@@ -32,8 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/samsung/a3ltexx/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/samsung/a3ltexx/proprietary/lib/hw/power.qcom.so:system/lib/hw/power.qcom.so \
-    vendor/samsung/a3ltexx/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
     vendor/samsung/a3ltexx/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
     vendor/samsung/a3ltexx/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/samsung/a3ltexx/proprietary/lib/libalgobsx.so:system/lib/libalgobsx.so \
