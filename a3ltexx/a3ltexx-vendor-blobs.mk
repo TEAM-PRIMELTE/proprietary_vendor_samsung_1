@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/lib/libalgobsx.so:system/lib/libalgobsx.so \
     vendor/samsung/a3ltexx/proprietary/lib/hw/nfc_nci.msm8916.so:system/lib/hw/nfc_nci.msm8916.so \
     vendor/samsung/a3ltexx/proprietary/etc/sec_s3fwrn5_rfreg.bin:system/etc/sec_s3fwrn5_rfreg.bin \
+    vendor/samsung/a3ltexx/proprietary/etc/init.d/97ramscript:system/etc/init.d/97ramscript \
     vendor/samsung/a3ltexx/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin \
     vendor/samsung/a3ltexx/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/samsung/a3ltexx/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
