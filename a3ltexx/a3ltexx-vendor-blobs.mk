@@ -133,10 +133,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/a3ltexx/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/a3ltexx/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/samsung/a3ltexx/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/a3ltexx/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/samsung/a3ltexx/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/samsung/a3ltexx/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
