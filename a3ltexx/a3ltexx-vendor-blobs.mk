@@ -46,7 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/samsung/a3ltexx/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/a3ltexx/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
-    vendor/samsung/a3ltexx/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/samsung/a3ltexx/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libactuator_dw9804_kleos_camcorder.so:system/vendor/lib/libactuator_dw9804_kleos_camcorder.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libactuator_dw9804_kleos_camera.so:system/vendor/lib/libactuator_dw9804_kleos_camera.so \
