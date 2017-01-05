@@ -19,17 +19,6 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(BOARD_VENDOR),samsung)
 ifneq ($(filter a3ltexx,$(TARGET_DEVICE)),)
 
-#include $(CLEAR_VARS)
-#LOCAL_MODULE := FusedLocationSTK
-#LOCAL_MODULE_OWNER := samsung
-#LOCAL_SRC_FILES := proprietary/priv-app/FusedLocation/FusedLocation.apk
-#LOCAL_MODULE_TAGS := optional
-#LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-#LOCAL_MODULE_CLASS := APPS
-#LOCAL_PRIVILEGED_MODULE := true
-#LOCAL_CERTIFICATE := platform
-#include $(BUILD_PREBUILT)
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
 LOCAL_MODULE_OWNER := qualcomm
