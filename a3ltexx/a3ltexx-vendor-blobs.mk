@@ -132,7 +132,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/samsung/a3ltexx/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/samsung/a3ltexx/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/samsung/a3ltexx/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+    vendor/samsung/a3ltexx/proprietary/framework/com.qti.location.sdk-2.jar:system/framework/com.qti.location.sdk-2.jar \
+    vendor/samsung/a3ltexx/proprietary/framework/qti-telephony-common-2.jar:system/framework/qti-telephony-common-2.jar \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
