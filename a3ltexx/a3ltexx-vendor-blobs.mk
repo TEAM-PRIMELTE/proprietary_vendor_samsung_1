@@ -171,7 +171,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/samsung/a3ltexx/proprietary/bin/perfd:system/bin/perfd \
+    vendor/samsung/a3ltexx/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
@@ -212,7 +212,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/samsung/a3ltexx/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/a3ltexx/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
-    vendor/samsung/a3ltexx/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/samsung/a3ltexx/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/a3ltexx/proprietary/bin/time_daemon:system/bin/time_daemon \
