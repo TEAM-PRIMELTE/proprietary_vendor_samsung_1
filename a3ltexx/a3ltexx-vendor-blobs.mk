@@ -129,6 +129,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/a3ltexx/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/samsung/a3ltexx/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/samsung/a3ltexx/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/samsung/a3ltexx/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/samsung/a3ltexx/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
@@ -143,6 +144,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libdatactrl.so:system/vendor/lib/libdatactrl.so \

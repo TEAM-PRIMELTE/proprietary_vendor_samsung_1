@@ -19,7 +19,8 @@ DEVICE_PACKAGE_OVERLAYS += vendor/samsung/a3ltexx/overlay
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
-    libloc_ds_api
+    libloc_ds_api \
+    com.qualcomm.location
 
 #PRODUCT_PACKAGES += \
 #    libtime_genoff \
