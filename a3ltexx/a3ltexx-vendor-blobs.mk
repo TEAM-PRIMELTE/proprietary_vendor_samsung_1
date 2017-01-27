@@ -121,10 +121,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/samsung/a3ltexx/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/samsung/a3ltexx/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-    vendor/samsung/a3ltexx/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-    vendor/samsung/a3ltexx/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/a3ltexx/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/a3ltexx/proprietary/bin/loc_launcher:system/bin/loc_launcher \
