@@ -22,6 +22,12 @@ PRODUCT_PACKAGES += \
     libloc_ds_api \
     com.qualcomm.location
 
+#IMS
+PRODUCT_PACKAGES += \
+    ims \
+    imscmlibrary \
+    imssettings
+
 #PRODUCT_PACKAGES += \
 #    libtime_genoff \
 #    TimeService

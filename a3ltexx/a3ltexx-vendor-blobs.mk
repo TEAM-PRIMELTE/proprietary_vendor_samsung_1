@@ -16,6 +16,10 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/samsung/a3ltexx/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/samsung/a3ltexx/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/samsung/a3ltexx/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/samsung/a3ltexx/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
@@ -130,6 +134,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/samsung/a3ltexx/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/samsung/a3ltexx/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/samsung/a3ltexx/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
+    vendor/samsung/a3ltexx/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
+    vendor/samsung/a3ltexx/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/samsung/a3ltexx/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
@@ -257,6 +264,28 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
     vendor/samsung/a3ltexx/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/librcc.so:system/vendor/lib/librcc.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/samsung/a3ltexx/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/a3ltexx/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv
 
