@@ -134,11 +134,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/a3ltexx/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/a3ltexx/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/samsung/a3ltexx/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/samsung/a3ltexx/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/samsung/a3ltexx/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/samsung/a3ltexx/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/samsung/a3ltexx/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/samsung/a3ltexx/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
     vendor/samsung/a3ltexx/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/samsung/a3ltexx/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
+    vendor/samsung/a3ltexx/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/samsung/a3ltexx/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
@@ -156,6 +160,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libdatactrl.so:system/vendor/lib/libdatactrl.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libcsm_data.so:system/vendor/lib/libcsm_data.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/samsung/a3ltexx/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/samsung/a3ltexx/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/samsung/a3ltexx/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -194,8 +200,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
-    vendor/samsung/a3ltexx/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/samsung/a3ltexx/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/a3ltexx/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/a3ltexx/proprietary/bin/qmiproxy:system/bin/qmiproxy \
@@ -205,8 +214,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    vendor/samsung/a3ltexx/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
+    vendor/samsung/a3ltexx/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/samsung/a3ltexx/proprietary/lib/libril.so:system/lib/libril.so \
