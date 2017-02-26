@@ -221,11 +221,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/samsung/a3ltexx/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/a3ltexx/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/a3ltexx/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/a3ltexx/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
-    vendor/samsung/a3ltexx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/a3ltexx/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     vendor/samsung/a3ltexx/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/a3ltexx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
