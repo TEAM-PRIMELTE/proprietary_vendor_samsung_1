@@ -233,6 +233,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
+    vendor/samsung/a3ltexx/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/samsung/a3ltexx/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
