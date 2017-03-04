@@ -161,8 +161,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libdatactrl.so:system/vendor/lib/libdatactrl.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libcsm_data.so:system/vendor/lib/libcsm_data.so \
-    vendor/samsung/a3ltexx/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
-    vendor/samsung/a3ltexx/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/samsung/a3ltexx/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/samsung/a3ltexx/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/samsung/a3ltexx/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
