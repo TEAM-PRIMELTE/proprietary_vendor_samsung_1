@@ -24,19 +24,20 @@ PRODUCT_PACKAGES += \
 
 #IMS
 PRODUCT_PACKAGES += \
-    ims \
-    imscmlibrary \
-    imssettings
+    ims-common \
+    imsmanager \
+    imsmanager-internal \
+    imsservice \
+    ImsSettings \
+    ImsTelephonyService \
+    ImsLogger
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService
 
 PRODUCT_PACKAGES += \
-    shutdownlistener \
-    qcrilmsgtunnel \
-    qcnvitems \
-    qcrilhook
+    SamsungCamera3
 
 PRODUCT_PACKAGES += \
     libmm-abl
