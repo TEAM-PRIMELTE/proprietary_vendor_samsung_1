@@ -24,9 +24,9 @@ PRODUCT_PACKAGES += \
 
 #IMS
 PRODUCT_PACKAGES += \
-    ims-common \
-    imsmanager \
-    imsmanager-internal \
+    sec-ims-common \
+    sec-imsmanager \
+    sec-imsmanager-internal \
     imsservice \
     ImsSettings \
     ImsTelephonyService \

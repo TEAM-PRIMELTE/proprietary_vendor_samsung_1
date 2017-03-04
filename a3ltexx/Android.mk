@@ -148,7 +148,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := ims-common
+LOCAL_MODULE := sec-ims-common
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := proprietary/framework/ims-common.jar
 LOCAL_MODULE_TAGS := optional
@@ -157,7 +157,7 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := imsmanager
+LOCAL_MODULE := sec-imsmanager
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := proprietary/framework/imsmanager.jar
 LOCAL_MODULE_TAGS := optional
@@ -166,7 +166,7 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := imsmanager-internal
+LOCAL_MODULE := sec-imsmanager-internal
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := proprietary/framework/imsmanager-internal.jar
 LOCAL_MODULE_TAGS := optional
