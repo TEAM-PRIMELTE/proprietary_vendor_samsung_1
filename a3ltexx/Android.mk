@@ -55,7 +55,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := ImsLogger
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/app/ImsLogger+/ImsLogger+.apk
+LOCAL_SRC_FILES := proprietary/priv-app/ImsLogger+/ImsLogger+.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -66,7 +66,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := SamsungCamera3
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/app/SamsungCamera3/SamsungCamera3.apk
+LOCAL_SRC_FILES := proprietary/priv-app/SamsungCamera3/SamsungCamera3.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
