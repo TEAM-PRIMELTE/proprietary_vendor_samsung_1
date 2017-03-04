@@ -203,24 +203,24 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
-    vendor/samsung/a3ltexx/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
-    vendor/samsung/a3ltexx/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
-    vendor/samsung/a3ltexx/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/samsung/a3ltexx/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/a3ltexx/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/samsung/a3ltexx/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/a3ltexx/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/samsung/a3ltexx/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/a3ltexx/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/samsung/a3ltexx/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/samsung/a3ltexx/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    vendor/samsung/a3ltexx/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-    vendor/samsung/a3ltexx/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/samsung/a3ltexx/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/a3ltexx/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+    vendor/samsung/a3ltexx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/a3ltexx/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/a3ltexx/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/a3ltexx/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/a3ltexx/proprietary/lib/libcordon.so:system/lib/libcordon.so \
@@ -234,6 +234,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/a3ltexx/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+    vendor/samsung/a3ltexx/proprietary/bin/IPSecService:system/bin/IPSecService \
     vendor/samsung/a3ltexx/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
@@ -274,9 +275,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
     vendor/samsung/a3ltexx/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
-    vendor/samsung/a3ltexx/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    vendor/samsung/a3ltexx/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
