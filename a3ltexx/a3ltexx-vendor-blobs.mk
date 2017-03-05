@@ -273,6 +273,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
     vendor/samsung/a3ltexx/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+    vendor/samsung/a3ltexx/proprietary/lib/libims_engine.so:system/lib/libims_engine.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
