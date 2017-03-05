@@ -31,7 +31,8 @@ PRODUCT_PACKAGES += \
     ImsSettings \
     ImsTelephonyService \
     ImsLogger \
-    libims_engine
+    libims_engine \
+    commonimsinterface
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
