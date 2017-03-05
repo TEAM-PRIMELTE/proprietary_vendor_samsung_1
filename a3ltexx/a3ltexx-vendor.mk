@@ -24,14 +24,14 @@ PRODUCT_PACKAGES += \
 
 #IMS
 PRODUCT_PACKAGES += \
-    sec-ims-common \
-    sec-imsmanager \
-    sec-imsmanager-internal \
+    ims-commo \
+    imsmanager \
+    imsmanager-internal \
     imsservice \
     ImsSettings \
     ImsTelephonyService \
     ImsLogger \
-    secimseng
+    libims_engine
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
