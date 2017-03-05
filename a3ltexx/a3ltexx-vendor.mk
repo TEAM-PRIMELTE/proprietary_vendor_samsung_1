@@ -30,7 +30,8 @@ PRODUCT_PACKAGES += \
     imsservice \
     ImsSettings \
     ImsTelephonyService \
-    ImsLogger
+    ImsLogger \
+    secimseng
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
