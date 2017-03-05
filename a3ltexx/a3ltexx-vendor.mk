@@ -36,8 +36,8 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService
 
-PRODUCT_PACKAGES += \
-    SamsungCamera3
+#PRODUCT_PACKAGES += \
+#    SamsungCamera3
 
 PRODUCT_PACKAGES += \
     libmm-abl
