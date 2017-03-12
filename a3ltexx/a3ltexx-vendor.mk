@@ -24,14 +24,7 @@ PRODUCT_PACKAGES += \
 
 #IMS
 PRODUCT_PACKAGES += \
-    ims-commo \
     imsmanager \
-    imsmanager-internal \
-    imsservice \
-    ImsSettings \
-    ImsTelephonyService \
-    ImsLogger \
-    libims_engine \
     commonimsinterface
 
 PRODUCT_PACKAGES += \

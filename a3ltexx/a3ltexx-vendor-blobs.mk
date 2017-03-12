@@ -194,7 +194,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
-    vendor/samsung/a3ltexx/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
@@ -218,7 +217,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/a3ltexx/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/a3ltexx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/a3ltexx/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/a3ltexx/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/a3ltexx/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/a3ltexx/proprietary/lib/libcordon.so:system/lib/libcordon.so \
@@ -276,7 +274,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
-    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
