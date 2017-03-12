@@ -122,6 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/etc/B05QL_s5k5e3yx_module_info.xml:system/etc/B05QL_s5k5e3yx_module_info.xml \
     vendor/samsung/a3ltexx/proprietary/etc/G08QU_imx219_module_info.xml:system/etc/G08QU_imx219_module_info.xml \
     vendor/samsung/a3ltexx/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/samsung/a3ltexx/proprietary/bin/qmi_sfs_server:system/bin/qmi_sfs_server \
     vendor/samsung/a3ltexx/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
