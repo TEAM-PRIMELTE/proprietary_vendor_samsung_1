@@ -202,6 +202,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/samsung/a3ltexx/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/a3ltexx/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/a3ltexx/proprietary/bin/rild:system/bin/rild \
