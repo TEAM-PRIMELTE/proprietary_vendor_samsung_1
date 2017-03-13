@@ -25,7 +25,6 @@ PRODUCT_PACKAGES += \
 #IMS
 PRODUCT_PACKAGES += \
     imsmanager \
-    ims-commo \
     commonimsinterface
 
 PRODUCT_PACKAGES += \
