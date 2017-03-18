@@ -25,7 +25,8 @@ PRODUCT_PACKAGES += \
 #IMS
 PRODUCT_PACKAGES += \
     imsmanager \
-    commonimsinterface
+    commonimsinterface \
+    libims_engine
 
 PRODUCT_PACKAGES += \
     libtime_genoff \

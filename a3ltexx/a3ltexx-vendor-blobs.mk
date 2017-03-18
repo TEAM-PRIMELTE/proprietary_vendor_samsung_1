@@ -216,6 +216,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/samsung/a3ltexx/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/a3ltexx/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/a3ltexx/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/a3ltexx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
