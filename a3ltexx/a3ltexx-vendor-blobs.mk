@@ -122,7 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/etc/B05QL_s5k5e3yx_module_info.xml:system/etc/B05QL_s5k5e3yx_module_info.xml \
     vendor/samsung/a3ltexx/proprietary/etc/G08QU_imx219_module_info.xml:system/etc/G08QU_imx219_module_info.xml \
     vendor/samsung/a3ltexx/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/samsung/a3ltexx/proprietary/bin/qmi_sfs_server:system/bin/qmi_sfs_server \
+    vendor/samsung/a3ltexx/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     vendor/samsung/a3ltexx/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
@@ -206,7 +206,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/a3ltexx/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/a3ltexx/proprietary/bin/rild:system/bin/rild \
-    vendor/samsung/a3ltexx/proprietary/bin/qmiproxy:system/bin/qmiproxy \
+    vendor/samsung/a3ltexx/proprietary/bin/ime:system/bin/ime \
     vendor/samsung/a3ltexx/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/a3ltexx/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/samsung/a3ltexx/proprietary/bin/rmt_storage:system/bin/rmt_storage \
