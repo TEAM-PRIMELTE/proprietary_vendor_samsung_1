@@ -28,9 +28,9 @@ PRODUCT_PACKAGES += \
     imscmlibrary \
     imssettings
 
-#PRODUCT_PACKAGES += \
-#    libtime_genoff \
-#    TimeService
+PRODUCT_PACKAGES += \
+    libtime_genoff \
+    TimeService
 
 PRODUCT_PACKAGES += \
     libmm-abl
