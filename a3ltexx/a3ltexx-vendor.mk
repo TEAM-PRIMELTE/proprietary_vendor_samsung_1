@@ -24,16 +24,13 @@ PRODUCT_PACKAGES += \
 
 #IMS
 PRODUCT_PACKAGES += \
-    imsmanager \
-    commonimsinterface \
-    libims_engine
-
-PRODUCT_PACKAGES += \
-    libtime_genoff \
-    TimeService
+    ims \
+    imscmlibrary \
+    imssettings
 
 #PRODUCT_PACKAGES += \
-#    SamsungCamera3
+#    libtime_genoff \
+#    TimeService
 
 PRODUCT_PACKAGES += \
     libmm-abl

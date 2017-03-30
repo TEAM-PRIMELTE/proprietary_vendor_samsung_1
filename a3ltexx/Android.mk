@@ -20,9 +20,9 @@ ifeq ($(BOARD_VENDOR),samsung)
 ifneq ($(filter a3ltexx,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := imsservice
+LOCAL_MODULE := ims
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/app/imsservice/imsservice.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/ims/ims.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -31,47 +31,22 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := ImsSettings
+LOCAL_MODULE := imscmlibrary
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/app/ImsSettings/ImsSettings.apk
+LOCAL_SRC_FILES := proprietary/framework/imscmlibrary.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := ImsTelephonyService
+LOCAL_MODULE := imssettings
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/app/ImsTelephonyService/ImsTelephonyService.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/imssettings/imssettings.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := ImsLogger
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/priv-app/ImsLogger+/ImsLogger+.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := SamsungCamera3
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/priv-app/SamsungCamera3/SamsungCamera3.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
@@ -146,52 +121,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libims_engine
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/lib/libims_engine.so
-LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-include $(BUILD_PREBUILT)
-
-#include $(CLEAR_VARS)
-#LOCAL_MODULE := ims-commo
-#LOCAL_MODULE_OWNER := samsung
-#LOCAL_SRC_FILES := proprietary/framework/ims-common.jar
-#LOCAL_MODULE_TAGS := optional
-#LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-#LOCAL_MODULE_SUFFIX := n.jar
-#include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := imsmanager
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/framework/imsmanager.jar
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := imsmanager-internal
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/framework/imsmanager-internal.jar
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := commonimsinterface
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/framework/commonimsinterface.jar
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 endif
