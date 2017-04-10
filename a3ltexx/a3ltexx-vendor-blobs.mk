@@ -288,6 +288,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/librcc.so:system/vendor/lib/librcc.so \
     vendor/samsung/a3ltexx/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/samsung/a3ltexx/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-    vendor/samsung/a3ltexx/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv
+    vendor/samsung/a3ltexx/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/samsung/a3ltexx/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so
 
 $(call inherit-product, vendor/qcom/binaries/msm8916-32/graphics/graphics-vendor.mk)
