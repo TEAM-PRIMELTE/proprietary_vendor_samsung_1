@@ -22,7 +22,6 @@ vendor/lib/libbtnv.so
 
 # Sensors
 lib/hw/sensors.msm8916.so
-lib/libalgobsx.so
 
 # FM Radio
 bin/fm_qsoc_patches
